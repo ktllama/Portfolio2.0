@@ -1,23 +1,25 @@
 {
-  "name": "portfolio2.0",
-  "version": "1.0.0",
-  "description": "My new portfolio where I practice json and node",
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ktllama/Portfolio2.0.git"
-  },
-  "author": "Katie Costantin",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ktllama/Portfolio2.0/issues"
-  },
-  "homepage": "https://github.com/ktllama/Portfolio2.0#readme",
-  "dependencies": {
-    "lite-server": "^2.6.1",
-    "save-dev": "^0.0.1-security"
-  }
+    "name": "portfolio2.0",
+    "version": "1.0.0",
+    "description": "My new portfolio where I practice json and node",
+    "main": "index.html",
+    "scripts": {
+        "start": "npm run lite",
+        "test": "echo \"Error: no test specified\" && exit 1"
+        "lite": "lite-server",
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ktllama/Portfolio2.0.git"
+    },
+    "author": "Katie Costantin",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ktllama/Portfolio2.0/issues"
+    },
+    "homepage": "https://github.com/ktllama/Portfolio2.0#readme",
+    "dependencies": {
+        "lite-server": "^2.6.1",
+        "save-dev": "^0.0.1-security"
+    }
 }

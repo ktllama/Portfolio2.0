@@ -1,0 +1,46 @@
+div{
+    text-align: center;
+    color:white;
+    font-weight: 400;
+}
+
+.navigation .navigations{
+    background-color: #dc3545;
+    border:1px solid white;
+
+}
+
+.intro{
+    background-color: #dc3545;
+    height: 100vh;
+
+}
+
+.name{
+    font-size: 5em;
+    color:white;    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.about{
+    background-color:#fd7e14;
+    height: 100vh;
+    padding:2em;
+}
+
+.contact{
+    background-color: #f3a96c;
+    height:100vh;
+    padding:2em;
+}
+
+.skills{
+    background-color:#ffc107;
+    height:100vh;
+    padding:2em;
+}
+.projects{
+    background-color: #f3d478;
+    height:100vh;
+    padding:2em;
+}

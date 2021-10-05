@@ -4,11 +4,31 @@ div{
     font-weight: 400;
 }
 
-.navigation .navigations{
-    background-color: #dc3545;
-    border:1px solid white;
+.container-fixed {
+    position: fixed;
+    display: inline;
+    width: 100vw;
+    height: 100px;
+    color: #fff;
+  }
 
-}
+  .navigation{
+      float:left;
+      width:100vw;
+      border:1px white solid;
+  }
+
+  a{
+      text-decoration: none;
+      color:white;
+      font-size:2em;
+  }
+
+  a:hover{
+      text-decoration:none;
+      color:white;
+      opacity: .5;
+  }
 
 .intro{
     background-color: #dc3545;
@@ -21,23 +41,40 @@ div{
     color:white;    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.heading{
+    text-align: center;
+    font-size:5em;
+}
+
+/*.text{
+    padding:3em;
+    font-size:1em;
+}
+
+
+.box{
+    border: 1px solid white;
+    padding: 1em;
+    border-radius: 20px;
+*/
 
 .about{
     background-color:#fd7e14;
     height: 100vh;
-    padding:2em;
 }
 
 .contact{
     background-color: #f3a96c;
     height:100vh;
-    padding:2em;
 }
-
 .skills{
     background-color:#ffc107;
     height:100vh;
     padding:2em;
+}
+
+.list{
+    border:1px solid white;
 }
 .projects{
     background-color: #f3d478;

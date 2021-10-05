@@ -8,10 +8,10 @@
     <!---RESPONSIVE MOBILE DESIGN--->
 
     <title>Katie Costantin</title>
-    <meta name="description" content="A simple HTML5 Template for new projects.">
+    <meta name="description" content="bootstrap portfolio">
     <meta name="author" content="Katie Costantin">
     <!---below are Open Graph Website to improve social media linking--->
-    <meta property="og:title" content="A Basic HTML5 Template">
+    <meta property="og:title" content="bootstrap portfolio">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
     <meta property="og:description" content="A simple HTML5 Template for new projects.">
@@ -21,40 +21,91 @@
     <!---link favicon-->
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <script src="https://kit.fontawesome.com/67c98a50e6.js" crossorigin="anonymous"></script>
+
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" type="ico" href="favicon.ico"/>
+
     <!---link CSS-->
 
 </head>
 
 <body>
 
-<div class="container-fluid">
+<div class="container-fixed">
 
-    <!--nav div-->
+<nav>  
     <div class="row navigation">
-        <div class="col-sm-4 navigations">ABOUT</div>
-        <div class="col-sm-4 navigations">MY WORK</div>
-        <div class="col-sm-4 navigations">CONTACT</div>
+        <div class="col-sm-12 col-md-4 navigations"><a href="#about">ABOUT</a></div>
+        <div class="col-sm-12 col-md-4 navigations"><a href="#work">MY WORK</a></div>
+        <div class="col-sm-12 col-md-4 navigations"><a href="#contact">CONTACT</a></div>
     </div>
+</nav>
+</div>
 
+<div class="container-fluid">
     <div class="row align-content-center justify-content-center name intro">
-        <div clas="col-12">
+        <div class="col-12">
             I AM KATIE
         </div>
     </div>
 
     <div class="row">
-        <div class="col-sm-12 col-md-6 about">ABOUT ME</div>
-        <div class="col-sm-12 col-md-6 contact">CONTACT</div>
+        <div class="col-sm-12 col-md-6 about" ID="about">
+            <div class="col-sm-12 heading">ABOUT ME</div>
+            <div class="col-sm-12 about text"><p>When the pandemic put an end to my career as an international educator and photojournalist, 
+                I embarked on a mission to find alternate ways to continue working in a global context.  
+                What better way to do this than to become a magician behind the scenes of the World Wide 
+                Web? I started playing around with CSS and HTML and suddenly everything clicked, my 
+                mathematical bilingual mind start churning with all that could be done with those two 
+                beautiful languages.  My tinkering with friends websites and playing around with web 
+                design led me to an internship as the front-end developer for the local Habitat for 
+                Humanity.   I noticed as I worked on these projects, it didn’t feel like work, but instead 
+                an adventure, an exciting experience unlocking keys to my own mind. Of course, the more 
+                I learned the more I realized I had a ways to go.  So here I am, finished with certifications in 
+                HTML5, CSS3, JavaScript, Python, PHP, Bootstrap, and jQuery among other frameworks. I am just 
+                beginning my career in this field but finding I have a knack and profound appreciation 
+                for web development.  I hope to meet some cool mentors and continue producing interactive, responsive and 
+                innovative websites and programs. But above all I will continue learning about the profound world of
+                of full-stack development and programming WOOHOO</p></div>
+        
+        </div>
+
+        <div class="col-sm-12 col-md-6 contact" ID="contact">
+            <div class="col-sm-12 heading">CONTACT</div>
+            <div class="col-sm-12 contact text">
+                <i class="fas fa-envelope"></i>  <a href = "mailto:zktbug143@gmail.com">zktbug143@gmail.com</a> <br>
+                <i class="fab fa-linkedin"></i>   <a href="https://www.linkedin.com/in/costantinkp/" target="_blank">costantinkp</a><br>
+                <i class="fab fa-github-square"></i>  <a href="https://github.com/ktllama" target="_blank">ktllama</a><br>
+                <br>
+                <div id="resume" class="box">
+                    <h3><a href="WEBDEVELOPMENTRESUME2021.pdf">RESUME</a></h3>
+                  </div>
+            </div>
+        </div>
     </div>
 
-    <div class="row">
-        <div class="col-sm-12 col-md-6 skills">SKILLS</div>
-        <div class="col-sm-12 col-md-6 projects">PROJECTS</div>
+    <div class="row" ID="work">
+        <div class="col-sm-12 col-md-6 skills">
+            <div class="col-sm-12 heading">SKILLS</div>
+            <div class="col-sm-12 col-md-4 list">DEV TOOLS</div>
+            <div class="col-sm-12 col-md-4 list">FRAMEWORKS</div>
+            <div class="col-sm-12 col-md-4 list">DESIGN</div>
+        
+        </div>  
+
+        <div class="col-sm-12 col-md-6 projects">
+            <div class="col-sm-12 heading">PROJECTS</div>
+            <div class="col-sm-12 text">HERE DA PROJECTS</div>
+        
+        
+        </div>
     </div>
 
 
